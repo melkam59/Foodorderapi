@@ -1,0 +1,16 @@
+version: "3.6"
+services:
+  dev_db:
+    image: postgres:13-alpine
+    container_name: db-dev
+    restart: always
+    volumes:
+      - db_data_dev:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${USERNAME}
+      POSTGRES_PASSWORD: ${PASSWORD}
+volumes:
+  db_data_dev:
