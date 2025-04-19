@@ -12,7 +12,10 @@ require (
 	gorm.io/gorm v1.25.5
 )
 
-require github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+	github.com/joho/godotenv v1.5.1 // indirect
+)
 
 require (
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
