@@ -73,9 +73,9 @@ func Foodorderroutes(e *echo.Echo) {
 	userroutes.POST("/displayallmenu",controllers.DisplayMenu)
 	userroutes.POST("/displayallcategory",controllers.DisplayCategory)
 	userroutes.POST("/menubycategory/:categoryid", controllers.GetFoodByCategory)
-    userroutes.POST("/numberofmenubycategory", controllers.FoodNumberByCategory)
-    userroutes.POST("/fetchmenusbyfastingstatus",controllers.FetchMenusByFastingStatus)
-    userroutes.POST("/numberofcategories",controllers.NumberofCategories)
+        userroutes.POST("/numberofmenubycategory", controllers.FoodNumberByCategory)
+        userroutes.POST("/fetchmenusbyfastingstatus",controllers.FetchMenusByFastingStatus)
+        userroutes.POST("/numberofcategories",controllers.NumberofCategories)
 	userroutes.POST("/numberoffoods",controllers.NumberofMenus)
 
 
