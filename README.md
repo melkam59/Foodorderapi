@@ -2,7 +2,6 @@
 
 A Go-based RESTful API backend scaffold for a food ordering system. This project provides a starting point for building endpoints, middleware, and core domain logic for menus, orders, users, and other features you may add over time.
 
-- Language: Go
 - Default branch: `main`
 - Repository: https://github.com/melkam59/Foodorderapi
 
@@ -188,25 +187,3 @@ docker run --rm -it \
   jetbrains/qodana-go:latest
 ```
 
-## Troubleshooting
-
-- Build errors related to the Docker file name:
-  - Either rename `dokcerifle` to `Dockerfile` or pass `-f dokcerifle` to `docker build`.
-- Port conflicts:
-  - Change `PORT` in `.env` or your run command, and update port mappings in `docker-compose.yml`.
-
-## Contributing
-
-1. Fork the repo and create a feature branch.
-2. Add tests for your changes when appropriate.
-3. Run `go test ./...` and static checks before submitting.
-4. Open a pull request with a clear description and context.
-
-## License
-
-No license has been specified in the repository. If you plan to share or reuse this code, consider adding a license (e.g., MIT, Apache-2.0).
-
-## Acknowledgements
-
-- Go community and standard library
-- JetBrains Qodana for static analysis
