@@ -1,11 +1,6 @@
 # Foodorderapi
 
-A Go-based RESTful API backend scaffold for a food ordering system. This project provides a starting point for building endpoints, middleware, and core domain logic for menus, orders, users, and other features you may add over time.
-
-- Default branch: `main`
-- Repository: https://github.com/melkam59/Foodorderapi
-
-> Note: This README describes the current repository layout and offers sensible defaults to run and extend the project. Update sections (features, config, API docs) as you implement specifics.
+A Go-based RESTful API  for a food ordering system. This project provides a starting point for building endpoints, middleware, and core domain logic for menus, orders, users, and other features
 
 ## Contents
 
